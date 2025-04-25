@@ -1,6 +1,5 @@
 #include "aluno.h"
 #include "turma.h"
-
 #include <iostream>
 
 int main() {
@@ -49,7 +48,5 @@ int main() {
 
     lp1.removeAluno("22222");
 
-
     return 0;
-
 }

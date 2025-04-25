@@ -25,6 +25,4 @@ class Aluno {
 
 };
 
-
-
 #endif
