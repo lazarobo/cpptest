@@ -17,7 +17,7 @@ std::string Aluno::getMatricula() {
 }
 
 void Aluno::printAlunoInfo() {
-    std::cout << "Nome: " << _nome << " / Matrícula: " << _matricula << "Idade: " << _age << std::endl;
+    std::cout << "Nome: " << _nome << " / Matrícula: " << _matricula << " / Idade: " << _age << " / Curso: " << _curso << std::endl;
 }
 
 void Aluno::setAge(int newAge){
@@ -26,4 +26,12 @@ void Aluno::setAge(int newAge){
 
 int Aluno::getAge() {
     return _age;
+}
+
+void Aluno::setCurso(std::string newCurso){
+    _curso = newCurso;
+}
+
+std::string Aluno::getCurso(){
+    return _curso;
 }
