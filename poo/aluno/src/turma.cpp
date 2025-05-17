@@ -1,4 +1,4 @@
-#include "turma.h"
+#include "../include/turma.h"
 
 std::string Turma::getCodigo() {
     return _codigo;
