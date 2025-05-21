@@ -13,6 +13,9 @@ class Aluno {
         int _age;
 
     public:
+
+        //Aluno(std::string newMatricula, std::string newNome, std::string newCurso, int newAge);
+
         void setNome(std::string newNome);
         std::string getNome();
 

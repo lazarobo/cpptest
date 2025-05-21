@@ -1,4 +1,4 @@
-#include "aluno.h"
+#include "../include/aluno.h"
 
 void Aluno::setNome(std::string newNome) {
     _nome = newNome;
